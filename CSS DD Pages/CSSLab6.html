@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Engel Guzman Hover Code</title>
+
+	<style>
+		/*Write your CSS code here*/
+		div{
+			width: 100px;
+			height: 100px;
+			border: 3px dotted green;
+      font-size:85px;
+		}
+
+    .Eclass{
+      color:gray;
+      transition: color 2s, background-color 4s, transform 6s;
+    }
+    .Eclass:hover{
+      background-color:tan;
+      transform:translate(200px);
+    }
+
+    .nclass{
+      color: magenta;
+      transition:  background-color 2s, transform 2s, color 3s;
+    }
+    .nclass:hover{
+      background-color:orange;
+      transform: rotatex(180deg);
+    }
+
+    gclass{
+      color: black;
+    }
+    .gclass:hover{
+      background-color:green;
+      transform: skew(10deg,10deg);
+    }
+
+    .twoeclass{
+      color: brown;
+      transition: color 3s, background-color 3s, transform 4s;
+    }
+    .twoeclass:hover{
+      background-color:purple;
+      transform: matrix(1, -0.3, 0, 1, 0, 0);
+
+    }
+    .lclass{
+      color: green;
+      transition: width 6s, background-color 4s;
+    }
+    .lclass:hover{
+      background-color:blue;
+      transform: scaley(2);
+    }
+
+
+	</style>
+
+</head>
+
+<body>
+	<!--Write your HTML code here -->
+	
+	<p>Hover over each letter to see the transition effect:</p>
+
+	<div class = "Eclass">E</div>
+  
+  <div class = "nclass">n</div>
+
+  <div class = "gclass">g</div>
+
+  <div class = "twoeclass">e</div>
+
+  <div class = "lclass">l</div>
+
+  </body>
+</html>
