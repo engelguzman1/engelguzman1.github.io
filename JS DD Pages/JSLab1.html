@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- This is an example of an HTML file utilizing Internal JS -->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>JS_Assign1-Mablibs</title>
+
+<style>
+  span{
+    color:red;
+  }
+  </style>
+</head>
+
+<body>
+	<h3>MadLib - This the assignment</h3>
+
+<!-- Extend the Madlib so that it has at least 8 different words-->
+<p> Here's a madlib about a kid named <span id = "name1">____</span>  who had an imaginary friend <span id = "name2"> ____</span>. One day the two of them went up a hill and found a pot of <span id = "noun1"> _____ </span>. They both had a craving for <span id = "noun2"> _____ </span>though. They live in an imaginary world called <span id = "noun3"> _____ </span>. One day they stumbled upon a <span id = "noun4"> _____ </span> and&nbsp; Elias strained his foot. Manuel said <span id = "dialogue1"> _____ </span> and proceeded to help Elias back up. Once he was&nbsp; on his feet, they headed out to their destination <span id = "noun5"> _____ </span> in hopes of finding <span id = "name3"> _____ </span>. He was an old friend who had once plowed the fields with them, and they were excited to catch up.</p>
+	<script>  //The Javascript goes in this section below 
+    
+
+
+
+var name1 = prompt("Give me a name");
+var name2 = prompt("Give me another name");
+var noun1 = prompt("Give me an appropriate object");
+var noun2 = prompt("Give me the name of a food");
+var noun3 = prompt("Give me the name of a place");
+var noun4 = prompt("Give me the name of an object");
+var dialogue1 = prompt("Give me a dialogue");
+var noun5 = prompt("Give me the name of a place");
+var name3 = prompt("Give me a name");
+
+
+
+
+
+
+document.getElementById("name1").innerHTML = name1;
+document.getElementById("name2").innerHTML = name2;
+document.getElementById("noun1").innerHTML = noun1;
+document.getElementById("noun2").innerHTML = noun2;
+document.getElementById("noun3").innerHTML = noun3;
+document.getElementById("noun4").innerHTML = noun4;
+document.getElementById("dialogue1").innerHTML = dialogue1;
+document.getElementById("noun5").innerHTML = noun5;
+document.getElementById("name3").innerHTML = name3;
+
+
+
+
+
+
+	</script>
+
+
+</body>
+
+</html>
